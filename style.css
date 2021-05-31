@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+a {
+    text-decoration: none;
+}
+
+span {
+    color: rgb(39, 196, 136);
+}
+
+h1 {
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-bottom: .7rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0 1rem;
+}
+
+.content-main {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 4rem 0;
+    gap: 5rem;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-top: 1.2rem;
+}
+
+.item-details > p{
+    font-weight: 500;
+}
+
+.item-description {
+    max-width: 30rem;
+}
+
+.price {
+    margin-top: -1.1rem;
+    font-size: 2rem;
+    font-weight: 700;
+    padding-bottom: 1.2rem;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+.footer-box {
+    display: flex;
+    max-width: 15rem;
+    margin: 0 5rem 5rem 1rem;
+}
+
+.icon {
+    transform: scale(1.5);
+    margin: 1rem 1.5rem;
+}
+
+.images {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    width:30rem;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    margin-top: .6rem;
+}
+
+.btn {
+    padding: .7rem 2rem;
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+    margin-right: .5rem;
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.star {
+    transform: scale(.95);
+    color: rgb(39, 196, 136);
+}
+.review-btn-holder{
+    margin: .5rem 0 1.5rem 0;
+}
+.review-btn {
+    display: inline;
+    color: black;
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+
+.wishlist-btn {
+    color: black;
+    border: 1px solid black;
+    background-color: white;
+}
+.secondary-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.secondary-image{
+    height: 4.7rem;
+    width: 4.7rem;
+    margin: .6rem 0;
+}
+
+img {
+    width: 100%;
+    height: 25rem;
+}
+
+@media screen and (max-width: 900px) {
+    html {
+        font-size: 10px;
+    }
+}
